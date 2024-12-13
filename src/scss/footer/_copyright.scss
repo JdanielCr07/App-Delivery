@@ -1,0 +1,13 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.copyright{
+    background-color: v.$primario;
+    padding: 2rem;
+    text-align: center;
+   
+    &__texto{
+        margin: 0;
+        color: v.$blanco;
+    }
+}
